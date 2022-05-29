@@ -1,0 +1,59 @@
+:root{  /* Es una seccion que se pone los colore que se van a utilizar en la pagina para luego ser reutilizados en las diferentes etiquetas */
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+}
+
+html {
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    text-align: center;
+}
+
+.titulo{  /* Este es el llamado a la clase que definio en el index.html */
+    text-align: center;   /* El font son las fuentes */  /* El text-aling es para la posicion que se desea poner el texto. En este caso se utiliza center para quedar en el medio */
+    font-size: 3.8rem;  /* El font-size es para el tamaño de la letra */
+    font-family: 'Krub', sans-serif; /*Codigo Google Fonts*/
+    color: var(--primario);
+    
+}
+.titulo span{
+    font-size: 2rem;
+}
+.title{
+    text-align: center;
+    font-family: 'Krub', sans-serif;
+    color: crimson;
+}
+.redes{
+    height: 100px;
+    background-color: var(--secundario);
+    padding: 30px;
+
+}
+.redes h2{
+    font-family: gabriola;
+    text-align: center;
+    font-weight: bold ;
+}
+.sociales{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+.sociales li{
+    display: inline-block; /* queden horizontalmente los logos */
+}
+.sociales a{
+    padding: 10px;
+    
+}
+.paginas{
+    height: 100px;
+    background-color: var(--secundario);
+    padding: 30px;
+}
